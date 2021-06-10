@@ -30,7 +30,7 @@ position: relative;
 }
 .small-nav-logo{
   color:#ffffff;
-  font-size: 30px;
+  font-size: 20px;
 }
 .nav-sm-div{
   display: flex;
@@ -940,6 +940,14 @@ margin-top:15px;
   background:#631414;
 }
 
+.sm-menu-btn{
+  position:fixed;
+  bottom:100px;
+  left:39%;
+  border:none;
+  background:#631414;
+  color:#f1f1f1;
+}
 
 @media only screen and (max-width:1199px) {
 
@@ -1149,7 +1157,20 @@ margin-top:15px;
     width:80%;
   }
   .sub-title-txt{
-    font-size:20px;
+    font-size:16px;
+  }
+  .sub-pack-div{
+    flex-direction: column;
+    justify-content:space-evenly;
+  }
+  .subscribe-box input[type=email] {
+    height: 40%;
+    width: 100%;
+    font-size:16px;
+  }
+  .sub-btn {
+    width: 40%;
+    height: 30%;
   }
 
 }

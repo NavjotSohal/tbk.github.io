@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Burger Knight</title>
+    <title>The Burger Prince</title>
     <link rel="stylesheet" href="css.css">
     <link href="https://drive.google.com/file/d/13lkauzOnrgMfPRGENWow71-XhqjLTRK1/view?usp=sharing" rel="stylesheet"/>
     <link href="https://drive.google.com/file/d/1laJZQxeTpTRHyvdUGD1Z-0gaV-4BiBzl/view?usp=sharing" rel="stylesheet"/>
@@ -48,7 +48,7 @@
         </div>
         <div class="navbar-small">
               <div class="nav-sm-div">
-                  <h1 class="small-nav-logo">The Burger Knight</h1>
+                  <h1 class="small-nav-logo">The Burger Prince</h1>
                   <a href="tel:0181-01234567" class="order-btn-sm"><i class="fas fa-phone-alt white"></i>Order</a>
             </div>
       </div>
@@ -1138,20 +1138,19 @@
     </div>
 
 
-
     <footer>
         <div class="footer-grid">
             <div class="company-abt">
-              <h1 class="footer-headings">The Burger Knight</h1>
+              <h1 class="footer-headings">The Burger Prince</h1>
               <p class="footer-comp-bio">
-                The Burger knight is a project created to fullfil a portfolio profile of a web designer,
+                The Burger Prince is a project created to fullfil a portfolio profile of a web designer,
                 In order to show the designing skills, the site is created using every known technique by the professional.
                 Every Aspect of the site is fictional only. In case of issue with the content published on the site, kindly Ignore.
               </p>
               <div class="head-quaters-div">
                 <i class="fab fa-fort-awesome head-icons"></i><p class="head-quaters">B.K Head Quaters, Jalandhar-08, Punjab, INDIA.</p>
                 <i class="fas fa-phone-office head-icons"></i><p class="head-quaters">0181-01234567, 02345678, 9876543210.</p>
-                <i class="fas fa-envelope-open head-icons "></i><p class="head-quaters">headquaters@theburgerknight.com</p>
+                <i class="fas fa-envelope-open head-icons "></i><p class="head-quaters">headquaters@theburgerPrince.com</p>
               </div>
               <div class="social-icons-div">
                   <i class="fab fa-facebook-f social-icons"></i>
@@ -1184,9 +1183,11 @@
 
 </footer>
   <div class="copyright">
-      © 2021 The Burger Knight. All Rights Reserved.
+      © 2021 The Burger Prince. All Rights Reserved.
   </div>
 
+<div class="sm-menu-cont">
+<!-- <button type="button" id="sm-menu-toggle" class="sm-menu-btn"><i class="fas fa-caret-square-down"></i></button>   -->
 <div class="menu-small">
     <div class="small-menu-links">
       <li><a href="#burgerVeg"><i class="fas fa-hamburger small-menu-icons"></i></a></li>
@@ -1194,7 +1195,7 @@
       <li><a href="#shakes"><i class="fas fa-coffee-togo small-menu-icons"></i></a></li>
     </div>
 </div>
-
+</div>
 
 <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -1202,17 +1203,13 @@
 
 <script>
 
-$(document).ready(function(){
-  $('.promo-slider').slick({
-    infinite: true,
-    speed: 5000,
-    fade: true,
-    autoplay: true,
-    autoplaySpeed: 1000,
-    cssEase: 'linear',
-    slidesToShow: 1,
-  });
-});
+  $(document).ready(function(){
+      $("#sm-menu-toggle").click(function(){
+        $(".menu-small").toggle(500);
+      })
+  })
+
+
 
 </script>
 
